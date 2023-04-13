@@ -25,7 +25,7 @@ python pose-rosbag2pcd.py <input_bag> <output_pcd> <target_topic>
 or
 
 ```bash
-python pose-csv2pcd.py <input_csv> <output_pcd> <target_topic>
+python pose-csv2pcd.py <input_csv> <output_pcd>
 ```
 - <input_csv>: Path to the input PoseStamped csv file.
 - <output_pcd>: Path to the output PCD file where the converted point cloud data will be saved.
