@@ -5,8 +5,6 @@ This Python script converts geometry_msgs/PoseStamped or geometry_msgs/PoseWithC
 You can install the required packages using the following commands:
 
 ```bash
-pip install rospy
-pip install rosbag
 pip install open3d
 pip install numpy
 ```
