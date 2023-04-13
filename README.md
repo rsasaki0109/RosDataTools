@@ -33,14 +33,14 @@ python pose-csv2pcd.py <input_csv> <output_pcd> <target_topic>
 ## Example
 
 ```bash
-python pose-rosbag2pcd.py sample/sample.bag pose.pcd /current_pose
+python script/pose-rosbag2pcd.py sample/sample.bag pose.pcd /current_pose
 ```
 This command will read PoseStamped messages from the /current_pose topic in the sample/sanple.bag file and save the point cloud data to the pose.pcd file.
 
 of
 
 ```bash
-python pose-csv2pcd.py sample/sample.csv pose.pcd
+python script/pose-csv2pcd.py sample/sample.csv pose.pcd
 ```
 
 This script was tested using the [Stevens VLP16 Dataset](https://github.com/TixiaoShan/Stevens-VLP16-Dataset) by Tixiao Shan.
