@@ -6,7 +6,6 @@ You can install the required packages using the following commands:
 
 ```bash
 pip install open3d
-pip install numpy
 ```
 
 ## Usage
@@ -18,7 +17,7 @@ python pose-rosbag2pcd.py <input_bag> <output_pcd> <target_topic>
 ```
 - <input_bag>: Path to the input ROS bag file containing PoseStamped or geometry_msgs/PoseWithCovarianceStamped messages.
 - <output_pcd>: Path to the output PCD file where the converted point cloud data will be saved.
-- <target_topic>: The topic containing the PoseStamped messages in the input ROS bag file.
+- <target_topic>: The topic containing the PoseStamped of PoseWithCovarianceStamped messages in the input ROS bag file.
 
 or
 
@@ -35,7 +34,7 @@ python script/pose-rosbag2pcd.py sample/sample.bag pose.pcd /current_pose
 ```
 This command will read PoseStamped messages from the /current_pose topic in the sample/sanple.bag file and save the point cloud data to the pose.pcd file.
 
-of
+or
 
 ```bash
 python script/pose-csv2pcd.py sample/sample.csv pose.pcd
