@@ -35,7 +35,7 @@ python script/pose-rosbag2pcd.py sample/sample.bag pose.pcd /current_pose
 ```
 This command will read PoseStamped messages from the /current_pose topic in the sample/sanple.bag file and save the point cloud data to the pose.pcd file.
 
-of
+or
 
 ```bash
 python script/pose-csv2pcd.py sample/sample.csv pose.pcd
