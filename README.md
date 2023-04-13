@@ -6,7 +6,6 @@ You can install the required packages using the following commands:
 
 ```bash
 pip install open3d
-pip install numpy
 ```
 
 ## Usage
