@@ -3,7 +3,7 @@ import open3d as o3d
 import sys
 import csv
 
-def csv_to_pcd(input_csv, output_pcd):
+def csv2pcd(input_csv, output_pcd):
     poses = []
     with open(input_csv, 'r') as csvfile:
         csv_reader = csv.reader(csvfile, delimiter=',')
@@ -25,9 +25,9 @@ def csv_to_pcd(input_csv, output_pcd):
 
 if __name__ == '__main__':
     if len(sys.argv) != 3:
-        print("Usage: python csv_to_pcd.py <input_csv> <output_pcd>")
+        print("Usage: python csv2pcd.py <input_csv> <output_pcd>")
         exit(1)
 
     input_csv = sys.argv[1]
     output_pcd = sys.argv[2]
-    csv_to_pcd(input_csv, output_pcd)
+    csv2pcd(input_csv, output_pcd)
