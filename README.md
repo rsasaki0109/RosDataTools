@@ -1,5 +1,5 @@
 # Pose to PCD Converter
-This Python script converts geometry_msgs/PoseStamped or geometry_msgs/PoseWithCovarianceStamped messages from a ROS bag file or csv file into a Point Cloud Data (PCD) file using the Open3D library.
+This Python script converts geometry_msgs/PoseStamped or geometry_msgs/PoseWithCovarianceStamped messages from a `rosbag` file or `csv` file into a Point Cloud Data (PCD) file using the Open3D library.
 
 ## Requirements
 You can install the required packages using the following commands:
