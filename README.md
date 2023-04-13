@@ -35,7 +35,7 @@ python pose-csv2pcd.py <input_csv> <output_pcd> <target_topic>
 ```bash
 python pose-rosbag2pcd.py sample/sample.bag pose.pcd /current_pose
 ```
-This command will read PoseStamped messages from the /localization/pose_twist_fusion_filter/pose topic in the sample/output.bag file and save the point cloud data to the pose.pcd file.
+This command will read PoseStamped messages from the /current_pose topic in the sample/sanple.bag file and save the point cloud data to the pose.pcd file.
 
 of
 
