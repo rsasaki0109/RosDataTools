@@ -27,7 +27,7 @@ python pose2pcd.py <input_bag> <output_pcd> <target_topic>
 ```bash
 python pose2pcd.py sample/sanple.bag pose.pcd /current_pose
 ```
-This command will read PoseStamped messages from the /localization/pose_twist_fusion_filter/pose topic in the sample/output.bag file and save the point cloud data to the pose.pcd file.
+This command will read PoseStamped messages from the /current_pose topic in the sample/sanple.bag file and save the point cloud data to the pose.pcd file.
 
 
 This script was tested using the [Stevens VLP16 Dataset](https://github.com/TixiaoShan/Stevens-VLP16-Dataset) by Tixiao Shan.
